@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/nom" />
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextNomUsuari"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextCognom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextNom"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextNom"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewCognom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextCognom"
+        android:layout_alignBottom="@+id/editTextCognom"
+        android:layout_alignParentLeft="true"
+        android:text="@string/cognom" />
+
+    <TextView
+        android:id="@+id/textViewNomUsuari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextCognom"
+        android:layout_marginTop="23dp"
+        android:text="@string/nickname" />
+
+    <EditText
+        android:id="@+id/editTextNomUsuari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewNomUsuari"
+        android:layout_alignBottom="@+id/textViewNomUsuari"
+        android:layout_alignLeft="@+id/editTextMobil"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewMobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextNomUsuari"
+        android:layout_marginTop="24dp"
+        android:text="@string/mobil" />
+
+    <EditText
+        android:id="@+id/editTextMobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMobil"
+        android:layout_alignBottom="@+id/textViewMobil"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextMobil"
+        android:layout_marginTop="25dp"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPassword"
+        android:layout_alignBottom="@+id/textViewPassword"
+        android:layout_alignLeft="@+id/editTextMobil"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewRepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewPassword"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="32dp"
+        android:text="@string/repassword" />
+
+    <EditText
+        android:id="@+id/editTextRepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewRepassword"
+        android:layout_alignBottom="@+id/textViewRepassword"
+        android:layout_alignLeft="@+id/editTextPassword"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewRepassword"
+        android:layout_marginTop="14dp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextRepassword"
+        android:layout_below="@+id/editTextRepassword"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewCondicions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_marginTop="23dp"
+        android:text="@string/condicions" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAceptaCondi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewCondicions"
+        android:layout_marginTop="20dp"
+        android:text="@string/acepta_condi" />
+
+    <Button
+        android:id="@+id/buttonCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@+id/checkBoxAceptaCondi"
+        android:text="@string/Cancelar" />
+
+    <Button
+        android:id="@+id/buttonEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textViewEmail"
+        android:text="@string/Entrar" />
+
+</RelativeLayout>

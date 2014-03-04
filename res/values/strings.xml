@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PTFinalMP7</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Cancelar">Cancel·lar</string>
+    <string name="registrat">Registrat</string>
+    <string name="nom">Nom</string>
+    <string name="cognom">Cognom</string>
+    <string name="nickname">Nom Usuari</string>
+    <string name="mobil">Tel. Mòbil</string>
+    <string name="password">Contrasenya</string>
+    <string name="repassword">Rescriu Contrasenya</string>
+    <string name="email">Email</string>
+    <string name="condicions">Condicions</string>
+    <string name="acepta_condi">Accepta Condicions</string>
+    <string name="usuari">Usuari</string>
+    <string name="contrasena">Contrasenya</string>
+    <string name="imageP">Imatge de portada</string>
+    <string name="reserva">Reserva</string>
+    <string name="carta">Carta</string>
+    <string name="ubicacio">On trobar-nos</string>
+
+</resources>
