@@ -22,5 +22,6 @@
     <string name="reserva">Reserva</string>
     <string name="carta">Carta</string>
     <string name="ubicacio">On trobar-nos</string>
+    <string name="title_activity_dash_board_principal">DashBoardPrincipalActivity</string>
 
 </resources>

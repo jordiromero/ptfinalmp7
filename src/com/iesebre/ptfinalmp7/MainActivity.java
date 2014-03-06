@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
-	private TextView textview1;
+	//private TextView textview1;
 	private LoginControl login;
 	private Button button1;
 

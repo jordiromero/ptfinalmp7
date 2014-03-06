@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -22,11 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="FormulariActivity"></activity>
-        <activity android:name="DashBoardPrincipalActivity"></activity>
-        <activity android:name="MapActivity"></activity>
-        <activity android:name="MenuActivity"></activity>
-        <activity android:name="ReservaActivity"></activity>
+        <activity
+            android:name="com.iesebre.ptfinalmp7.DashBoardPrincipalActivity"
+            android:label="@string/title_activity_dash_board_principal" >
+        </activity>
+        <activity
+            android:name="com.iesebre.ptfinalmp7.FormulariActivity" >
+        </activity>
+        <activity
+            android:name="com.iesebre.ptfinalmp7.MapActivity" >
+        </activity>
+        <activity
+            android:name="com.iesebre.ptfinalmp7.MenuActivity" >
+        </activity>
     </application>
 
 </manifest>
