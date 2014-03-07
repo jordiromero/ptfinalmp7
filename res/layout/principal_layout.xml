@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal" >
@@ -8,18 +8,32 @@
         android:id="@+id/ButtonOnEstem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:drawableTop="@drawable/ic_fork"
         android:text="@string/ubicacio" />
 
     <Button
         android:id="@+id/ButtonReserva"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/ButtonOnEstem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="45dp"
+        android:drawableTop="@drawable/ic_launcher"
         android:text="@string/reserva" />
 
     <Button
         android:id="@+id/ButtonCarta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ButtonReserva"
+        android:layout_alignBottom="@+id/ButtonReserva"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:drawableTop="@drawable/ic_fork"
         android:text="@string/carta" />
 
-</LinearLayout>
+</RelativeLayout>
