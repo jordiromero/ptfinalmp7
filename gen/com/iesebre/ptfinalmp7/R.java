@@ -889,6 +889,10 @@ containing a value of this type.
          (such as screen margins) for screens with more than 820dp of available width. This
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
+
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    
          */
         public static final int activity_horizontal_margin=0x7f080011;
         public static final int activity_vertical_margin=0x7f080012;
@@ -1008,11 +1012,11 @@ containing a value of this type.
         public static final int buttonCancelar=0x7f050056;
         public static final int buttonEntrar=0x7f050057;
         public static final int buttonLogin=0x7f05003f;
-        public static final int calendarView1=0x7f05005b;
         public static final int checkBoxAceptaCondi=0x7f050055;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int container=0x7f05003c;
+        public static final int datePicker1=0x7f05005b;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;

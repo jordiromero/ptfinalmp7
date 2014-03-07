@@ -35,6 +35,9 @@
         <activity
             android:name="com.iesebre.ptfinalmp7.MenuActivity" >
         </activity>
+        <activity
+            android:name="com.iesebre.ptfinalmp7.ReservaActivity" >
+        </activity>
     </application>
 
 </manifest>
