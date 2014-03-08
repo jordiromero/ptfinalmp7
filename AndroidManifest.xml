@@ -3,7 +3,8 @@
     package="com.iesebre.ptfinalmp7"
     android:versionCode="1"
     android:versionName="1.0" >
-    <supports-screens android:xlargeScreens="true" />  
+
+    <supports-screens android:xlargeScreens="true" />
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -27,17 +28,17 @@
             android:name="com.iesebre.ptfinalmp7.DashBoardPrincipalActivity"
             android:label="@string/title_activity_dash_board_principal" >
         </activity>
-        <activity
-            android:name="com.iesebre.ptfinalmp7.FormulariActivity" >
+        <activity android:name="com.iesebre.ptfinalmp7.FormulariActivity" >
+        </activity>
+        <activity android:name="com.iesebre.ptfinalmp7.MapActivity" >
+        </activity>
+        <activity android:name="com.iesebre.ptfinalmp7.MenuActivity" >
+        </activity>
+        <activity android:name="com.iesebre.ptfinalmp7.ReservaActivity" >
         </activity>
         <activity
-            android:name="com.iesebre.ptfinalmp7.MapActivity" >
-        </activity>
-        <activity
-            android:name="com.iesebre.ptfinalmp7.MenuActivity" >
-        </activity>
-        <activity
-            android:name="com.iesebre.ptfinalmp7.ReservaActivity" >
+            android:name="com.iesebre.ptfinalmp7.CondicionsActivity"
+            android:label="@string/title_activity_condicions" >
         </activity>
     </application>
 

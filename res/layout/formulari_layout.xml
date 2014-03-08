@@ -140,6 +140,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/editTextEmail"
         android:layout_marginTop="23dp"
+        android:textColor="#091F92"
         android:text="@string/condicions" />
 
     <CheckBox
