@@ -26,5 +26,8 @@
     <string name="title_activity_dash_board_principal">DashBoardPrincipalActivity</string>
     <string name="title_activity_condicions">CondicionsActivity</string>
     <string name="acepta_condicions">Aquesta Activitat mostrarà les condicions que visulitzarem des de una pàgina web </string>
+    <string name="title_activity_primers">PrimersActivity</string>
+    <string name="title_activity_segons">SegonsActivity</string>
+    <string name="title_activity_postres">PostresActivity</string>
 
 </resources>

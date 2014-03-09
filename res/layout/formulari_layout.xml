@@ -12,12 +12,16 @@
             android:id="@+id/textNom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:text="@string/nom" />
 
         <EditText
             android:id="@+id/editTextNom"
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:ems="10" >
 
             <requestFocus />
@@ -27,51 +31,64 @@
             android:id="@+id/textViewCognom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:text="@string/cognom" />
 
         <EditText
             android:id="@+id/editTextCognom"
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:ems="10" />
 
         <TextView
             android:id="@+id/textViewNomUsuari"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="23dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:text="@string/nickname" />
 
         <EditText
             android:id="@+id/editTextNomUsuari"
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:ems="10" />
 
         <TextView
             android:id="@+id/textViewMobil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:text="@string/mobil" />
 
         <EditText
             android:id="@+id/editTextMobil"
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:ems="10" />
 
         <TextView
             android:id="@+id/textViewPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:text="@string/password" />
 
         <EditText
             android:id="@+id/editTextPassword"
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:ems="10"
             android:inputType="textPassword" />
 
@@ -79,13 +96,16 @@
             android:id="@+id/textViewRepassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:text="@string/repassword" />
 
         <EditText
             android:id="@+id/editTextRepassword"
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:ems="10"
             android:inputType="textPassword" />
 
@@ -93,12 +113,15 @@
             android:id="@+id/textViewEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:text="@string/email" />
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
             android:ems="10" />
 
         <TextView
@@ -121,7 +144,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Entrar" />
-
     </LinearLayout>
 
 </ScrollView>

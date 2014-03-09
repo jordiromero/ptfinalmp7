@@ -40,6 +40,18 @@
             android:name="com.iesebre.ptfinalmp7.CondicionsActivity"
             android:label="@string/title_activity_condicions" >
         </activity>
+        <activity
+            android:name="com.iesebre.ptfinalmp7.PrimersActivity">
+            
+        </activity>
+        <activity
+            android:name="com.iesebre.ptfinalmp7.SegonsActivity"
+             >
+        </activity>
+        <activity
+            android:name="com.iesebre.ptfinalmp7.PostresActivity"
+             >
+        </activity>
     </application>
 
 </manifest>
