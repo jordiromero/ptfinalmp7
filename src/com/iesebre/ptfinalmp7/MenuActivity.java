@@ -1,9 +1,16 @@
 package com.iesebre.ptfinalmp7;
 
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.app.TabActivity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
@@ -46,6 +53,4 @@ public class MenuActivity extends TabActivity {
         tabHost.addTab(outboxSpec); // Adding Outbox tab
         tabHost.addTab(profileSpec); // Adding Profile tab
 	}
-	
-
 }
