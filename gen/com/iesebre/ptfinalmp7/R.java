@@ -1150,7 +1150,6 @@ containing a value of this type.
         public static final int principal_layout=0x7f030023;
         public static final int reserva_layout=0x7f030024;
         public static final int support_simple_spinner_dropdown_item=0x7f030025;
-        public static final int tabwiew_layout=0x7f030026;
     }
     public static final class menu {
         public static final int condicions=0x7f0c0000;
