@@ -7,6 +7,7 @@ import android.app.TabActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,7 @@ import android.widget.BaseAdapter;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
+@SuppressWarnings("deprecation")
 public class MenuActivity extends TabActivity {
 	
 	private static final String PRIMERS_TAB = "Primers";
@@ -26,31 +28,30 @@ public class MenuActivity extends TabActivity {
 		setContentView(R.layout.menu_layout);
 		
 
-        TabHost tabHost = getTabHost();
+       TabHost tabHost = getTabHost();
         
       //Primers Tab
-        TabSpec inboxSpec = tabHost.newTabSpec(PRIMERS_TAB);
-        // Tab Icon
-        inboxSpec.setIndicator(PRIMERS_TAB);
-        Intent inboxIntent = new Intent(this, PrimersActivity.class);
-        // Tab Content
-        inboxSpec.setContent(inboxIntent);
+        TabSpec primersTab = tabHost.newTabSpec(PRIMERS_TAB);
+        primersTab.setIndicator(PRIMERS_TAB);
+        Intent primersIntent = new Intent(this, PrimersActivity.class);
+        // Contingut de la pestanya
+        primersTab.setContent(primersIntent);
          
-        // Outbox Tab
-        TabSpec outboxSpec = tabHost.newTabSpec(SEGONS_TAB);
-        outboxSpec.setIndicator(SEGONS_TAB);
-        Intent outboxIntent = new Intent(this, SegonsActivity.class);
-        outboxSpec.setContent(outboxIntent);
+        // Segons Tab
+        TabSpec segonsTab = tabHost.newTabSpec(SEGONS_TAB);
+        segonsTab.setIndicator(SEGONS_TAB);
+        Intent segonsIntent = new Intent(this, SegonsActivity.class);
+        segonsTab.setContent(segonsIntent);
          
-        // Profile Tab
-        TabSpec profileSpec = tabHost.newTabSpec(POSTRES_TAB);
-        profileSpec.setIndicator(POSTRES_TAB);
-        Intent profileIntent = new Intent(this, PostresActivity.class);
-        profileSpec.setContent(profileIntent);
+        // Postres Tab
+        TabSpec postresTab = tabHost.newTabSpec(POSTRES_TAB);
+        postresTab.setIndicator(POSTRES_TAB);
+        Intent postresIntent = new Intent(this, PostresActivity.class);
+        postresTab.setContent(postresIntent);
          
         // Adding all TabSpec to TabHost
-        tabHost.addTab(inboxSpec); // Adding Inbox tab
-        tabHost.addTab(outboxSpec); // Adding Outbox tab
-        tabHost.addTab(profileSpec); // Adding Profile tab
+        tabHost.addTab(primersTab); // afegim  la pestanya primers
+        tabHost.addTab(segonsTab); // afegim  la pestanya segons
+        tabHost.addTab(postresTab); // afegim  la pestanya postres
 	}
 }

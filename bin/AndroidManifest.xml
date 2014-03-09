@@ -45,12 +45,10 @@
             
         </activity>
         <activity
-            android:name="com.iesebre.ptfinalmp7.SegonsActivity"
-             >
+            android:name="com.iesebre.ptfinalmp7.SegonsActivity">
         </activity>
         <activity
-            android:name="com.iesebre.ptfinalmp7.PostresActivity"
-             >
+            android:name="com.iesebre.ptfinalmp7.PostresActivity">
         </activity>
     </application>
 
