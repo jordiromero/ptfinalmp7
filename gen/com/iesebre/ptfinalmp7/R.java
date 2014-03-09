@@ -987,6 +987,9 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_fork=0x7f020057;
         public static final int ic_launcher=0x7f020058;
+        public static final int ic_mapa=0x7f020059;
+        public static final int ic_menu=0x7f02005a;
+        public static final int ic_reserva=0x7f02005b;
     }
     public static final class id {
         public static final int ButtonCarta=0x7f05005a;
@@ -1193,28 +1196,29 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int acepta_condi=0x7f0a001b;
-        public static final int acepta_condicions=0x7f0a0024;
+        public static final int acepta_condi=0x7f0a001c;
+        public static final int acepta_condicions=0x7f0a0025;
         public static final int action_settings=0x7f0a000e;
         public static final int app_name=0x7f0a000d;
-        public static final int carta=0x7f0a0020;
-        public static final int cognom=0x7f0a0014;
-        public static final int condicions=0x7f0a001a;
-        public static final int contrasena=0x7f0a001d;
-        public static final int email=0x7f0a0019;
+        public static final int carta=0x7f0a0021;
+        public static final int cognom=0x7f0a0015;
+        public static final int condicions=0x7f0a001b;
+        public static final int contrasena=0x7f0a001e;
+        public static final int descripcio_logo=0x7f0a0013;
+        public static final int email=0x7f0a001a;
         public static final int hello_world=0x7f0a000f;
-        public static final int imageP=0x7f0a001e;
-        public static final int mobil=0x7f0a0016;
-        public static final int nickname=0x7f0a0015;
-        public static final int nom=0x7f0a0013;
-        public static final int password=0x7f0a0017;
+        public static final int imageP=0x7f0a001f;
+        public static final int mobil=0x7f0a0017;
+        public static final int nickname=0x7f0a0016;
+        public static final int nom=0x7f0a0014;
+        public static final int password=0x7f0a0018;
         public static final int registrat=0x7f0a0012;
-        public static final int repassword=0x7f0a0018;
-        public static final int reserva=0x7f0a001f;
-        public static final int title_activity_condicions=0x7f0a0023;
-        public static final int title_activity_dash_board_principal=0x7f0a0022;
-        public static final int ubicacio=0x7f0a0021;
-        public static final int usuari=0x7f0a001c;
+        public static final int repassword=0x7f0a0019;
+        public static final int reserva=0x7f0a0020;
+        public static final int title_activity_condicions=0x7f0a0024;
+        public static final int title_activity_dash_board_principal=0x7f0a0023;
+        public static final int ubicacio=0x7f0a0022;
+        public static final int usuari=0x7f0a001d;
     }
     public static final class style {
         /** 
@@ -1243,6 +1247,7 @@ containing a value of this type.
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0b0084;
+        public static final int DashboardButton=0x7f0b0085;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;
