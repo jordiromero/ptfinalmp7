@@ -985,15 +985,18 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_fork=0x7f020057;
-        public static final int ic_launcher=0x7f020058;
-        public static final int ic_mapa=0x7f020059;
-        public static final int ic_menu=0x7f02005a;
-        public static final int ic_paella=0x7f02005b;
-        public static final int ic_reserva=0x7f02005c;
-        public static final int ic_sepia=0x7f02005d;
-        public static final int ic_sopa_verd=0x7f02005e;
-        public static final int ic_ternasco=0x7f02005f;
+        public static final int ic_broxeta=0x7f020057;
+        public static final int ic_fork=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
+        public static final int ic_mapa=0x7f02005a;
+        public static final int ic_mapa_local=0x7f02005b;
+        public static final int ic_menu=0x7f02005c;
+        public static final int ic_paella=0x7f02005d;
+        public static final int ic_ppoma=0x7f02005e;
+        public static final int ic_reserva=0x7f02005f;
+        public static final int ic_sepia=0x7f020060;
+        public static final int ic_sopa_verd=0x7f020061;
+        public static final int ic_ternasco=0x7f020062;
     }
     public static final class id {
         public static final int ButtonCarta=0x7f05005d;

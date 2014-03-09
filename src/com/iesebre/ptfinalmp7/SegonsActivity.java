@@ -19,7 +19,7 @@ public class SegonsActivity extends Activity {
 		ArrayList<ListaEntradaSegons> dades = new ArrayList<ListaEntradaSegons>();
 		dades.add(new ListaEntradaSegons(R.drawable.ic_ternasco, "Ternasco", "Del millor corder tendre, tendre"));
 		dades.add(new ListaEntradaSegons(R.drawable.ic_sepia, "Sopa de Verdura", "Sopa de verdura feta en verdures recient collide del hort"));
-		llista = (ListView)findViewById(R.id.listViewPrimers);
+		llista = (ListView)findViewById(R.id.listViewSegons);
 		llista.setAdapter(new Lista_adaptador(this,R.layout.entrada_llista_segons,dades){
 
 			@Override
