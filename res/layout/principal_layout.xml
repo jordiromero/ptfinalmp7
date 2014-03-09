@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="160dp"
         style="@style/DashboardButton"
         android:drawableTop="@drawable/ic_mapa"
         android:text="@string/ubicacio" />
@@ -21,8 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/ButtonOnEstem"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="50dp"
-        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="70dp"
         style="@style/DashboardButton"
         android:drawableTop="@drawable/ic_menu"
         android:text="@string/reserva" />
@@ -34,7 +35,7 @@
         android:layout_alignBaseline="@+id/ButtonReserva"
         android:layout_alignBottom="@+id/ButtonReserva"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="60dp"
+        android:layout_marginRight="70dp"
         style="@style/DashboardButton"
         android:drawableTop="@drawable/ic_reserva"
         android:text="@string/carta" />
@@ -46,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="80dp"
         android:src="@drawable/ic_fork" />
 
 </RelativeLayout>
