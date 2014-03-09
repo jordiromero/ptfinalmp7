@@ -12,11 +12,11 @@ public abstract class Lista_adaptador extends BaseAdapter{
 	
 	private ArrayList<?> entradas; 
     private int R_layout_IdView; 
-    private Context contexto;
+    private Context context;
       
     public Lista_adaptador(Context contexto, int R_layout_IdView, ArrayList<?> entradas) {
         super();
-        this.contexto = contexto;
+        this.context = contexto;
         this.entradas = entradas; 
         this.R_layout_IdView = R_layout_IdView; 
     }
@@ -24,7 +24,7 @@ public abstract class Lista_adaptador extends BaseAdapter{
     @Override
     public View getView(int posicion, View view, ViewGroup pariente) {
         if (view == null) {
-			LayoutInflater vi = (LayoutInflater) contexto.getSystemService(Context.LAYOUT_INFLATER_SERVICE); 
+			LayoutInflater vi = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE); 
             view = vi.inflate(R_layout_IdView, null); 
         }
         onEntrada (entradas.get(posicion), view);

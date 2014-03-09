@@ -28,15 +28,15 @@ public class PrimersActivity extends Activity {
 			@Override
 			public void onEntrada(Object entrada, View view) {
 				 if (entrada != null) {
-			            TextView text_principal = (TextView)findViewById(R.id.textViewTextPrincipal); 
+			            TextView text_principal = (TextView)view.findViewById(R.id.textViewTextPrincipal); 
 			            if (text_principal != null) 
 			            	text_principal.setText(((ListaEntrada) entrada).get_textPrincipal()); 
 			              
-			            TextView text_secundari = (TextView)findViewById(R.id.textViewTextSecundari); 
+			            TextView text_secundari = (TextView)view.findViewById(R.id.textViewTextSecundari); 
 			            if (text_secundari != null)
 			            	text_secundari.setText(((ListaEntrada) entrada).get_textSecundari()); 
 			              
-			            ImageView imatge = (ImageView)findViewById(R.id.imageViewLlista); 
+			            ImageView imatge = (ImageView)view.findViewById(R.id.imageViewLlista); 
 			            if (imatge != null)
 			            	imatge.setImageResource(((ListaEntrada) entrada).get_idImatge());
 			        }

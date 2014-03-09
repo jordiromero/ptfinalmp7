@@ -991,7 +991,9 @@ containing a value of this type.
         public static final int ic_menu=0x7f02005a;
         public static final int ic_paella=0x7f02005b;
         public static final int ic_reserva=0x7f02005c;
-        public static final int ic_sopa_verd=0x7f02005d;
+        public static final int ic_sepia=0x7f02005d;
+        public static final int ic_sopa_verd=0x7f02005e;
+        public static final int ic_ternasco=0x7f02005f;
     }
     public static final class id {
         public static final int ButtonCarta=0x7f05005d;
