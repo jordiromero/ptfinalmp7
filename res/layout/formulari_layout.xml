@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    >
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        style="@style/personal" >
 
         <TextView
             android:id="@+id/textNom"
@@ -14,6 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="40dp"
+            style="@style/personal"
             android:text="@string/nom" />
 
         <EditText
@@ -33,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="40dp"
+            style="@style/personal"
             android:text="@string/cognom" />
 
         <EditText
@@ -49,6 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="40dp"
+            style="@style/personal"
             android:text="@string/nickname" />
 
         <EditText
@@ -65,6 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="40dp"
+            style="@style/personal"
             android:text="@string/mobil" />
 
         <EditText
@@ -81,6 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="40dp"
+            style="@style/personal"
             android:text="@string/password" />
 
         <EditText
@@ -98,6 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="40dp"
+            style="@style/personal"
             android:text="@string/repassword" />
 
         <EditText
@@ -115,6 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="40dp"
+            style="@style/personal"
             android:text="@string/email" />
 
         <EditText
@@ -129,6 +138,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="23dp"
+            style="@style/personal"
             android:text="@string/condicions"
             android:textColor="#091F92" />
 
@@ -138,12 +148,20 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="@string/acepta_condi" />
-
         <Button
             android:id="@+id/buttonEntrar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Entrar" />
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/Entrar"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
     </LinearLayout>
 
 </ScrollView>

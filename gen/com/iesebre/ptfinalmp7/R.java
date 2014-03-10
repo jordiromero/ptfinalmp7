@@ -985,18 +985,20 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_broxeta=0x7f020057;
-        public static final int ic_fork=0x7f020058;
-        public static final int ic_launcher=0x7f020059;
-        public static final int ic_mapa=0x7f02005a;
-        public static final int ic_mapa_local=0x7f02005b;
-        public static final int ic_menu=0x7f02005c;
-        public static final int ic_paella=0x7f02005d;
-        public static final int ic_ppoma=0x7f02005e;
-        public static final int ic_reserva=0x7f02005f;
-        public static final int ic_sepia=0x7f020060;
-        public static final int ic_sopa_verd=0x7f020061;
-        public static final int ic_ternasco=0x7f020062;
+        public static final int button=0x7f020057;
+        public static final int ic_broxeta=0x7f020058;
+        public static final int ic_fork=0x7f020059;
+        public static final int ic_fork_web=0x7f02005a;
+        public static final int ic_launcher=0x7f02005b;
+        public static final int ic_mapa=0x7f02005c;
+        public static final int ic_mapa_local=0x7f02005d;
+        public static final int ic_menu=0x7f02005e;
+        public static final int ic_paella=0x7f02005f;
+        public static final int ic_ppoma=0x7f020060;
+        public static final int ic_reserva=0x7f020061;
+        public static final int ic_sepia=0x7f020062;
+        public static final int ic_sopa_verd=0x7f020063;
+        public static final int ic_ternasco=0x7f020064;
     }
     public static final class id {
         public static final int ButtonCarta=0x7f05005d;
@@ -1268,7 +1270,7 @@ containing a value of this type.
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0b0084;
-        public static final int DashboardButton=0x7f0b0085;
+        public static final int DashboardButton=0x7f0b0086;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;
@@ -1456,6 +1458,7 @@ containing a value of this type.
         public static final int Widget_AppCompat_ProgressBar=0x7f0b000a;
         public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0009;
         public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0022;
+        public static final int personal=0x7f0b0085;
     }
     public static final class styleable {
         /**  ============================================ 
