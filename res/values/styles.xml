@@ -20,7 +20,7 @@
   </style>
   <style name = "personal">
       
-     <item name="android:background">#d9dfd6</item>
+    <item name="android:background">#d9dfd6</item>
      <item name="android:textSize">10pt</item>
      <item name="android:textStyle">bold</item>
      <item name="android:typeface">sans</item>

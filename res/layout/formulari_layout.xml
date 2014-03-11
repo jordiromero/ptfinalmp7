@@ -160,7 +160,7 @@
             android:shadowRadius="5"
             android:text="@string/Entrar"
             android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+             />
 
     </LinearLayout>
 
